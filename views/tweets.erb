@@ -1,0 +1,9 @@
+<h1> Look Ma! Here's what <%= @username %> is tweeting. </h1>
+
+<% @my_tweets.each do |tweet|%>
+
+  <p><%= tweet[:text] %> </p>
+
+
+<% end %>
+
